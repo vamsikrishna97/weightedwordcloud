@@ -1,0 +1,17 @@
+{
+    "contents" : "setwd(\"C:\\\\Users\\\\user\\\\Documents\\\\R codes\")\ngetwd()\nf=read.csv(file = \"a.txt\", header = FALSE, sep= \" \")\nf\nlibrary(tm)\nlibrary(wordcloud)\n#w<-c(f[1,1:10])\n#w\n#freq<-seq(10,100,by=10)\n#freq\n#wordcloud(w,freq[1:10])\n\n\n",
+    "created" : 1450907343719.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1777302912",
+    "id" : "281F409A",
+    "lastKnownWriteTime" : 1446200296,
+    "path" : "~/R codes/file.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,18 @@
+{
+    "contents" : "library(tm)\nf<-matrix(c( 1,\t1,\t0,\n1,\t0,\t1,\n1,\t1,\t1,\n1,\t1,\t0),\nnrow=3,ncol=4)\nf<-t(f)\nf\n\n?weightTfIdf(f, normalize =FALSE)\n\n?DocumentTermMatrix\ndtm <- DocumentTermMatrix(f, control = list(weighting = weightTfIdf))\n\ndata(\"crude\")\ncrude\ndtm <- DocumentTermMatrix(crude,\n                          control = list(weighting =\n                                           function(x)\n                                             weightTfIdf(x, normalize =\n                                                           FALSE),\n                                         stopwords = TRUE))\ndata(\"crude\")\ntermFreq(crude[[14]])\n",
+    "created" : 1450892274927.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3063034728",
+    "id" : "F9438F5B",
+    "lastKnownWriteTime" : 1450894968,
+    "path" : "C:/Users/user/Desktop/WIP9/my codes/WIP9/try tfitf.R",
+    "project_path" : "try tfitf.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

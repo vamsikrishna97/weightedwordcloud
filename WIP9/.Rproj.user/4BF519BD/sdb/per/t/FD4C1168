@@ -1,0 +1,18 @@
+{
+    "contents" : "doc<-list.files(\"./10doc\", pattern=\"*\")\ndoc\n\nfor (i in seq_along(doc))\n{\n  doc[i]\n}\n\nsetwd(\"C:\\\\Users\\\\user\\\\Desktop\\\\WIP9\\\\my codes\\\\WIP9\\\\10doc\")\ngetwd()\n\nf=read.csv(file = \"doc-1\", header = FALSE, sep= \" \")\nf",
+    "created" : 1450906956865.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3812456180",
+    "id" : "FD4C1168",
+    "lastKnownWriteTime" : 1450908843,
+    "path" : "C:/Users/user/Desktop/WIP9/my codes/WIP9/fileImport.R",
+    "project_path" : "fileImport.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
